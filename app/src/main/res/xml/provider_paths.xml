@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 注意包名 -->
+    <external-path
+        name="files_root"
+        path="Android/data/com.graduate.outofclass/" />
+    
+    <external-path
+        name="external_storage_root"
+        path="." />
+</paths>

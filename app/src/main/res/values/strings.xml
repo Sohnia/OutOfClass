@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">课外学习</string>
+    <string name="title_class">课外计划</string>
+    <string name="title_personal">我的</string>
+    <string name="pic">相册</string>
+    <string name="camera">相机</string>
+    <string name="part1">传感器技术与应用</string>
+    <string name="part2">电容式传感器的特点</string>
+    <string name="part3">传感器在汽车发动机控制系统中的应用</string>
+    <string name="part4">近红外光谱品质检测原理</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main">首页</string>
+    <string name="plan">计划</string>
+    <string name="exam">测试</string>
+    <string name="mine">我的</string>
+    <string name="basic_know">传感器基础知识</string>
+    <string name="basic_character">传感器基本特性</string>
+    <string name="classic_sensor_1">典型传感器1</string>
+    <string name="classic_sensor_2">典型传感器2</string>
+    <string name="classic_sensor_3">典型传感器3</string>
+    <string name="tech_rfid">RFID技术</string>
+    <string name="wireless_sensor">无线传感网</string>
+    <string name="all_exam">开始测试</string>
+    <string name="error_exam">错题回顾</string>
+    <string name="suggestion">留言建议</string>
+    <string name="about">关于我们</string>
+    <string name="version">版本信息</string>
+    <string name="test">测试</string>
+    <string name="ai_sensor">智能传感器</string>
+    <string-array name="exam_array">
+        <item>顺序测试</item>
+        <item>随机测试</item>
+        <item>错题回顾</item>
+    </string-array>
+</resources>

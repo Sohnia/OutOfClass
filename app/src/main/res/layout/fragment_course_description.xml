@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    style="@style/Theme.AppCompat.NoActionBar"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/themeColor"
+        app:layout_scrollFlags="scroll|enterAlways">
+        <TextView
+            android:id="@+id/tool_bar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/main"
+            android:textColor="@color/white" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_below="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="@string/part1"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="@string/part2"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="@string/part3"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/fob"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="@string/part4"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

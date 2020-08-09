@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_24"
+            android:orientation="vertical">
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/basic_know"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/basic_know"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/basic_character"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/basic_character"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/classic_sensor_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/classic_sensor_1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/classic_sensor_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/classic_sensor_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/classic_sensor_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/classic_sensor_3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tech_rfid"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/tech_rfid"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/ai_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/ai_sensor"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/wireless_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/wireless_sensor"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/all_exam"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/all_exam"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/error_exam"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_btn"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/btn_selector"
+            android:text="@string/error_exam"
+            android:textColor="@color/white"
+            android:textSize="@dimen/include_text_size" />
+    </LinearLayout>
+</ScrollView>
